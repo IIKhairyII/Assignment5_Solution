@@ -101,18 +101,18 @@
             //Console.WriteLine($"a = {a}, b = {b}");
             #endregion
             #region Refernece types
-            int[] myArr = { 50, 60, 70, 80, 90, 100 };
-            Console.WriteLine(myArr.GetHashCode());
-            ReferenceType(myArr);
-            PrintArray(myArr);
-            Console.WriteLine("Same Hashcodes");
-            Console.WriteLine(myArr.GetHashCode());
-            Console.WriteLine("<=====================================>");
-            ReferenceType(ref myArr);
-            PrintArray(myArr);
-            Console.WriteLine("Different Hashcodes");
-            Console.WriteLine(myArr.GetHashCode());
-            Console.WriteLine("<=====================================>");
+            //int[] myArr = { 50, 60, 70, 80, 90, 100 };
+            //Console.WriteLine(myArr.GetHashCode());
+            //ReferenceType(myArr);
+            //PrintArray(myArr);
+            //Console.WriteLine("Same Hashcodes");
+            //Console.WriteLine(myArr.GetHashCode());
+            //Console.WriteLine("<=====================================>");
+            //ReferenceType(ref myArr);
+            //PrintArray(myArr);
+            //Console.WriteLine("Different Hashcodes");
+            //Console.WriteLine(myArr.GetHashCode());
+            //Console.WriteLine("<=====================================>");
             #endregion
         }
     }
